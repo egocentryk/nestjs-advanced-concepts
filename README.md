@@ -14,6 +14,7 @@ Topics covered so far:
 - lazy-loading modules
 - accessing IoC container
 - worker threads & piscina implementation for workers pool
+- circuit breaker pattern
 - more to come...
 
 ## Project setup
