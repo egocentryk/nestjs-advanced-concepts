@@ -17,6 +17,7 @@ Topics covered so far:
 - circuit breaker pattern [#051aa9f](https://github.com/egocentryk/nestjs-advanced-concepts/commit/051aa9fca89dca21445e7909f7a34a67754bd680)
 - building configurable modules [#af9c243](https://github.com/egocentryk/nestjs-advanced-concepts/commit/af9c243)
 - composition with mixins [#959039f](https://github.com/egocentryk/nestjs-advanced-concepts/commit/959039f)
+- diving into DI sub-trees [#2dec430](https://github.com/egocentryk/nestjs-advanced-concepts/commit/2dec430)
 - more to come...
 
 ## Project setup
