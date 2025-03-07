@@ -7,10 +7,13 @@ import { SchedulerModule } from './scheduler/scheduler.module'
 import { CronModule } from './cron/cron.module'
 import { FibonacciModule } from './fibonacci/fibonacci.module'
 import { HttpClientModule } from './http-client/http-client.module'
-import { TagsModule } from './tags/tags.module';
+import { TagsModule } from './tags/tags.module'
+import { EventEmitterModule } from '@nestjs/event-emitter'
+import { PaymentsModule } from './payments/payments.module';
 
 @Module({
   imports: [
+    EventEmitterModule.forRoot(),
     CoffeesModule,
     DevtoolsModule.register({
       http: process.env.NODE_ENV !== 'production',
@@ -25,6 +28,7 @@ import { TagsModule } from './tags/tags.module';
       // but they are not registered as part of the options object or provider
     }),
     TagsModule,
+    PaymentsModule,
     // Alternatively, we can use the `forRootAsync` method to register the module with dynamic options
     // HttpClientModule.forRootAsync({
     //   useFactory: () => ({ baseUrl: 'https://nestjs.com' }),
