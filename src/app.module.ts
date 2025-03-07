@@ -7,6 +7,7 @@ import { SchedulerModule } from './scheduler/scheduler.module'
 import { CronModule } from './cron/cron.module'
 import { FibonacciModule } from './fibonacci/fibonacci.module'
 import { HttpClientModule } from './http-client/http-client.module'
+import { TagsModule } from './tags/tags.module';
 
 @Module({
   imports: [
@@ -23,6 +24,7 @@ import { HttpClientModule } from './http-client/http-client.module'
       // isGlobal is an extra option, that can be used to modify the auto-generated module definition,
       // but they are not registered as part of the options object or provider
     }),
+    TagsModule,
     // Alternatively, we can use the `forRootAsync` method to register the module with dynamic options
     // HttpClientModule.forRootAsync({
     //   useFactory: () => ({ baseUrl: 'https://nestjs.com' }),
