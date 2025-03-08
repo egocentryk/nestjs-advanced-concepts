@@ -19,6 +19,7 @@ Topics covered so far:
 - composition with mixins [#959039f](https://github.com/egocentryk/nestjs-advanced-concepts/commit/959039f)
 - diving into DI sub-trees [#2dec430](https://github.com/egocentryk/nestjs-advanced-concepts/commit/2dec430)
 - a practical example of DI sub-trees [#e8a3e32](https://github.com/egocentryk/nestjs-advanced-concepts/commit/e8a3e32)
+- durable providers #1: multi-tenancy [#36aea5e](https://github.com/egocentryk/nestjs-advanced-concepts/commit/36aea5e)
 - more to come...
 
 ## Project setup
